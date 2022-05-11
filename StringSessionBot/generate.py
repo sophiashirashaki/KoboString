@@ -114,7 +114,7 @@ async def generate_session(bot, msg, telethon=False):
     except KeyError:
         pass
     await client.disconnect()
-    await phone_code_msg.reply("Successfully generated {} string session. \n\nPlease check your saved messages! \n\nBy @Projectsupdate".format("telethon" if telethon else "pyrogram"))
+    await phone_code_msg.reply("Successfully generated {} string session. \n\nPlease check your saved messages! \n\nBy @Projectsupdates".format("telethon" if telethon else "pyrogram"))
 
 
 async def cancelled(msg):
